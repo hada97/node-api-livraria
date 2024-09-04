@@ -1,4 +1,15 @@
 import express from "express";
+import conectaNaDatabase from "./config/dbConnect.js";
+
+const conexao = await conectaNaDatabase();
+
+conexao.on("error", (erro) => {
+    console.log("erro de conexao", erro);
+});
+
+conexao.once("open", () => {
+    console.log("conexao feita com sucesso ");
+});
 
 const app =express();
 app.use(express.json());
@@ -59,3 +70,6 @@ app.delete("/livros/:id", (req, res) =>{
 
 
 export default app;
+
+
+//
