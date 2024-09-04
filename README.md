@@ -18,10 +18,13 @@ A API implementa as seguintes funcionalidades:
 
 O projeto utiliza as seguintes tecnologias:
 - **Node.js**: Ambiente de execução para JavaScript.
+- **MongoDB**: MongoDB é um software de banco de dados orientado a documentos livre, de código aberto.
 - **Express**: Framework para criação de APIs em Node.js.
 - **Visual Studio Code**: Editor de código.
 - **Insomnia**: Ferramenta para testar APIs.
-- **Swagger**: Ferramenta para definir, criar, documentar e consumir APIs REST
+- **Swagger**: Ferramenta para definir, criar, documentar e consumir APIs REST.
+- **Mongoose**: Biblioteca de POO JavaScript que cria uma conexão entre o MongoDB e o ambiente de execução JavaScript Node.js
+
 
 ## 📝 Licença
 
