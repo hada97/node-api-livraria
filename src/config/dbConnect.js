@@ -2,7 +2,7 @@
 import mongoose, { mongo } from "mongoose";
 
 async function conectaNaDatabase() {
-  mongoose.connect(process.env.DB_CONNECTION_STRING);
+  mongoose.connect('mongodb+srv://admin:J4oFLP6jRVEbPkrF@nodeapi.8nvi2.mongodb.net/livraria?retryWrites=true&w=majority&appName=nodeAPI');
   return mongoose.connection;
 };
 
