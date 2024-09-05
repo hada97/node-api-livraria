@@ -1,0 +1,48 @@
+{
+    "components": {
+      "schemas": {
+        "Livro": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "titulo": {
+                "type": "string",
+                "description": "Título do livro"
+              },
+            "editora": {
+              "type": "string"
+            },
+            "preco": {
+              "type": "string"
+            },
+            "paginas": {
+              "type": "number",
+              "format": "integer"
+            }
+          },
+          "required": ["titulo"],
+          "description": "Esquema que representa um livro"
+        },
+        "Autor": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nacionalidade": {
+              "type": "string"
+            },
+            "nome": {
+              "type": "string",
+              "description": "Nome do autor"
+            }
+          },
+          "required": ["nome"],
+          "description": "Esquema que representa um autor"
+        }
+      }
+    }
+  }
+  

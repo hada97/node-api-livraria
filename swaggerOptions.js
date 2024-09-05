@@ -14,5 +14,6 @@ const options = {
 };
 
 const swaggerSpec = swaggerJsdoc(options);
+app.user("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 export default swaggerSpec;
