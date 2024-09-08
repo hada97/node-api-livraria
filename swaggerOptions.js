@@ -15,7 +15,7 @@ const options = {
       description: 'Documentação da minha API',
     },
   },
-  apis: ['./routes/*.js'], // Ajuste o caminho conforme a estrutura do seu projeto
+  apis: ['./src/routes/*.js'], // Ajuste o caminho conforme a estrutura do seu projeto
 };
 
 const swaggerSpec = swaggerJsdoc(options);
