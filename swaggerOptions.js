@@ -1,6 +1,5 @@
 
 import swaggerJsdoc from 'swagger-jsdoc';
-import swaggerUi from 'swagger-ui-express';
 import express from 'express'; // Certifique-se de importar o express
 
 const app = express(); // Inicialize o express
