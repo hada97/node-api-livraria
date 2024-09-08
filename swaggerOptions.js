@@ -1,6 +1,11 @@
-// swaggerOptions.js
-import swaggerJsdoc from 'swagger-jsdoc';
 
+import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
+import express from 'express'; // Certifique-se de importar o express
+
+const app = express(); // Inicialize o express
+
+// Configurações do Swagger
 const options = {
   definition: {
     openapi: '3.0.0',
@@ -14,6 +19,7 @@ const options = {
 };
 
 const swaggerSpec = swaggerJsdoc(options);
-app.user("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
+
+// Exporta o swaggerSpec se precisar usá-lo em outro lugar
 export default swaggerSpec;
