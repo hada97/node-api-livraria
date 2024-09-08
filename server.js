@@ -1,15 +1,18 @@
 import express from 'express';
+import routes from './src/routes/index.js'; // Ajuste o caminho se necessário
 import swaggerUi from 'swagger-ui-express';
-import swaggerSpec from './swaggerOptions.js'; 
+import swaggerSpec from './swaggerOptions.js'; // Ajuste o caminho se necessário
 
-// Certifique-se de que o caminho está correto
+const app = express();
+const port = 3000; // Ou a porta que você deseja usar
 
-import "dotenv/config";
-import app from "./src/app.js";
+// Configura o Swagger
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-const PORT = 3000;
+// Inicializa as rotas
+routes(app);
 
-app.listen(PORT, () => {
-    console.log("servidor escutando!")
+// Inicia o servidor
+app.listen(port, () => {
+  console.log(`Servidor rodando na porta ${port}`);
 });
-
