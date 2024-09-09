@@ -1,17 +1,11 @@
-import express from 'express';
-import livros from './livrosRoutes.js';
-import autores from './autoresRoutes.js';
+import express from "express";
+import livros from "./livrosRoutes.js";
+import autores from "./autoresRoutes.js";
 
 const routes = (app) => {
-  // Middleware para parsear JSON
-  app.use(express.json());
+  app.route("/").get((req, res) => res.status(200).send("Curso de Node.js"));
 
-  // Rota básica
-  app.route('/').get((req, res) => res.status(200).send('Curso de Node.js'));
-
-  // Configuração das rotas
-  app.use('/livros', livros);
-  app.use('/autores', autores);
+  app.use(express.json(), livros, autores);
 };
 
 export default routes;
