@@ -9,9 +9,10 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Minha API Rest em Node.js',
+      title: 'API Rest em Node.js',
       version: '1.0.0',
-      description: 'Documentação da minha API, dev A. Guimaraes',
+      description: 'Documentação da minha API\n\nDesenvolvida por Adailson Guimaraes\n\nBanco de dados Mongo BD Atlas\n\nDeploy da aplicacao em nuvem\n\nEndpoints para teste abaixo:',
+      
     },
   },
   apis: ['./src/routes/*.js'], // Ajuste o caminho conforme a estrutura do seu projeto
