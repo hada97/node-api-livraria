@@ -1,10 +1,10 @@
-# API Rest em Node.js
+# API Rest para Livraria!
 
 ## 💻 Sobre o Projeto
 
-Esta é uma API Rest desenvolvida em Node.js que implementa as operações básicas de CRUD (Create, Read, Update, Delete). É uma base sólida para qualquer aplicação que precise interagir com uma base de dados.
+Esta é uma API Rest desenvolvida em Node.js que implementa as operações básicas de CRUD (Create, Read, Update, Delete) de livros e autores. É uma base sólida para qualquer aplicação que precise interagir com uma base de dados.
 
-[Veja como ficou!](https://myimgapi.onrender.com/docs/)
+[Veja como ficou em Produção!](https://3m82nyzpy9.us-east-1.awsapprunner.com/docs/)
 
 ## ⚙️ Funcionalidades
 
