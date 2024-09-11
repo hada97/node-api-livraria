@@ -15,7 +15,7 @@ const options = {
     info: {
       title: 'API Rest em Node.js',
       version: '1.0.0',
-      description: 'Desenvolvida por Adailson Guimaraes\n\nBanco de dados Mongo BD Atlas\n\nDeploy da aplicacao na AWS\n\nAplicação empacotada em um container Docker\n\nEndpoints para teste abaixo:',
+      description: 'Banco de dados Mongo BD Atlas\n\nDeploy da aplicacao na AWS\n\nAplicação empacotada com Docker\n\n',
     },
   
   },
