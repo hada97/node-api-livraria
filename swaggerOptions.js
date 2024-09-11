@@ -9,7 +9,7 @@ const options = {
   definition: {
     openapi: '3.0.0',
     externalDocs: {
-      description: 'Repositorio',
+      description: 'GitHub',
       url: 'https://github.com/hada97/nodeapi',
     },
     info: {
