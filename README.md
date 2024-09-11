@@ -24,6 +24,8 @@ O projeto utiliza as seguintes tecnologias:
 - **Insomnia**: Ferramenta para testar APIs.
 - **Swagger**: Ferramenta para definir, criar, documentar e consumir APIs REST.
 - **Mongoose**: Biblioteca de POO JavaScript que cria uma conexão entre o MongoDB e o ambiente de execução JavaScript Node.js
+- **Docker**:  Plataforma que facilita a criação, distribuição e execução de aplicativos em contêineres.
+- **AWS App Runner**: AWS App Runner é um serviço gerenciado da Amazon que facilita a implantação e o gerenciamento de aplicativos web e APIs.
 
 
 ## 📝 Licença
