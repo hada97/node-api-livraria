@@ -30,7 +30,7 @@ O projeto utiliza as seguintes tecnologias:
 
 ## 📝 Licença
 
-Este projeto é licenciado sob a Licença Aberta.
+Este projeto é licenciado sob a licença MIT.
 
 ## 🚀 Como Começar
 
@@ -52,3 +52,9 @@ Para começar a utilizar este projeto, siga as etapas abaixo:
     ```bash
     npm start
     ```
+
+5. Acesse o endpoint do Swagger!:
+    ```bash
+    http://localhost:3000/docs/
+    ```
+
