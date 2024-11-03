@@ -4,7 +4,7 @@
 
 Esta é uma API Rest desenvolvida em Node.js que implementa as operações básicas de CRUD (Create, Read, Update, Delete) de livros e autores. É uma base sólida para qualquer aplicação que precise interagir com uma base de dados.
 
-[Veja como ficou em Produção!](https://nodeapi-2-vd88.onrender.com/docs/)
+[Veja como ficou em Produção!](https://node-livraria-dhg4fyfgcbcncge3.canadacentral-01.azurewebsites.net/docs/#/default/get_autores)
 
 ## ⚙️ Funcionalidades
 
